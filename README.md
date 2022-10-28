@@ -1,7 +1,7 @@
 # Introduction to LSSVM-unlocked
 LSSVM-unlocked provides a Sudoswap style experience while keeping your NFT in your own wallet. So you can interact with other marketplaces while listing your NFT in LSSVM-unlocked. There is also another possibility to do a dual listing with classival LSSVM which will be explained later.
 
-# Major difference with original LSSVM
+# Major differences with original LSSVM
 - Resolved the circular dependency issue with `IRouter.sol`
 - Only `LSSVMPairMissingEnumerable` is still in use out of the two base variants
 - NFTs are transacted through `LSSVMPairFactory`. Extra function added called `requestNFTTransferFrom`. So users set approval of their NFTs to LSSVMPair Factory
@@ -28,4 +28,9 @@ Contracts are modified so that they can be compiled one-click on Remix ide.
 
 # Contribute
 Fork this repo, modify it and submit a Pull Request.
-If you write tests for this repo, you will be rewarded with n00d and 3gg.
+If you contribute this repo, you will be rewarded with n00d and 3gg.
+
+## Roadmap (and help needed)
+- Write tests
+- Write docs
+- Royalties
