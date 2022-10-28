@@ -25,3 +25,7 @@ Contracts are modified so that they can be compiled one-click on Remix ide.
 │   └── lib                 # Specific libraries (EIP-1167 cloner, etc.)
 └── README.md
 ```
+
+# Contribute
+Fork this repo, modify it and submit a Pull Request.
+If you write tests for this repo, you will be rewarded with n00d and 3gg.
