@@ -1,3 +1,10 @@
-src/artifacts
+contracts/src/artifacts
 .DS_Store
 .deps/
+contracts/src/mock/artifacts/
+.idea/
+contracts/src/sudoswappair/artifacts
+tests/
+node_modules/
+artifacts/
+cache/
